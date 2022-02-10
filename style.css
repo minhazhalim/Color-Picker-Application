@@ -1,0 +1,45 @@
+body {
+     background-color: #eeeeee;
+     margin: 20px;
+}
+.colorPicker {
+     background: none;
+     border: none;
+     margin: 0px;
+}
+.colorPicker .oned {
+     margin-right: 0px;
+}
+.container {
+     display: flex;
+     width: 500px;
+     padding: 20px;
+     background-color: #ffffff;
+     border-radius: 5px;
+     box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+}
+.config {
+     flex-grow: 1;
+     margin-left: 20px;
+}
+.config-title {
+     text-align: center;
+     padding: 15px 0px;
+     font-family: sans-serif;
+     font-weight: bold;
+}
+.selected-color-text {
+     text-align: center;
+     font-size: 1.2em;
+     font-family: monospace;
+     margin-bottom: 15px;
+}
+.selected-color,.saved-color {
+     height: 15px;
+     border: 1px solid #eeeeee;
+     border-radius: 3px;
+     cursor: pointer;
+}
+.saved-color:not(:last-of-type) {
+     margin-bottom: 5px;
+}
